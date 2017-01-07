@@ -1,0 +1,79 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Tamma';
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower';
+@import	'https://fonts.googleapis.com/css?family=Orbitron';
+*{margin: 0;padding:0;}
+
+#title {
+	font-family: 'Baloo Tamma', cursive;
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 2.5rem;
+}
+body {
+	font-family: 'Indie Flower', cursive;
+	background-color: #313d4b;
+	display: table;
+	display: block;
+	color: #fff;
+	width: 100%;
+}
+button,
+input[type=text],
+input[type=input],
+input[type=button],
+input[type=submit],
+input[type=password] {
+	font-family: 'Indie Flower', cursive;
+	box-sizing: border-box;
+	border: 1px solid #000;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 2rem;
+	margin: 4px 0;
+	padding: 6px;
+	width: 99.5%;
+	color: #00303F;
+	outline: none;
+}
+
+input[type=input],
+input[type=password] {
+	width: 89%;
+}
+#code { /* input */
+	width: 89%;
+	color: #fff;
+	background-color: #444;
+}
+input[type=submit] {
+	color: #DCAE1D;
+	cursor: pointer;
+	font-weight: 600;
+	background-color: #00303F;
+}
+input[type=submit]:hover {
+	color: #00303F;
+	background-color: #dcae1d;
+}
+button {
+	width: 10%;
+	background-color: #dcae1d;
+	cursor: pointer;
+}
+button:hover {
+	color: #000;
+	font-weight: 600;
+	background-color: #de6f20;
+}
+#form-id {
+	margin: 8%;
+	border-radius: 5px;
+	box-sizing: border-box;
+	background-color: #1d1e22;
+	padding: 10px 10px 10px 20px;
+	transform: translateY(10%);
+}
+#msg, #show, #select {
+	display: none;
+	/* visibility: hidden; -> Muda a visibilidade para 'visible' com onClick */
+}

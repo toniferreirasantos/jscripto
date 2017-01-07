@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<title>Cripto test</title>
+		<link rel="icon" href="http://goo.gl/r21pql">
+		<link rel="stylesheet" type="text/css" href=css/style.css>
+	</head>
+
+	<body>
+		<div id="form-id">
+			<h1 id="title">Enter your data...</h1>
+			<form id="myForm">
+				<input type="text" placeholder="Login..." id="login">
+				<input type="password" placeholder="          Password..." id="senha">
+				<button type="button" onclick="look()" value="See" id="see">See</button>
+				<input type="submit" value="Generate">
+			</form>	
+
+			<div id="show">
+				<center>
+					<input type="text" id="codeResult" value="" placeholder="Valor">
+					<button type="button" onclick="sel()" id="select">Select</button>
+				</center>
+			</div>
+		</div> <!-- #form-id -->
+		
+		<script type="text/javascript" src="js/general-functions.js"></script>
+		<script type="text/javascript" src="js/cripto.js"></script>
+	</body>
+</html>
